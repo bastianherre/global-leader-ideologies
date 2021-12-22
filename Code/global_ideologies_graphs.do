@@ -19,11 +19,11 @@ set more off
 use global_leader_ideologies.dta, clear
 
 
-** Create spine plot of leader ideologies across regime types:
+** Create tile plot of leader ideologies across regime types:
 
 generate leader_ideology_num_new = leader_ideology_num_redux
 recode leader_ideology_num_new (0=2) (1=0) (2=1)
-label variable leader_ideology_num_new "Ideology of head of government"
+label variable leader_ideology_num_new "Ideology of leader"
 label define leader_ideology_num_new 0 "leftist" 1 "centrist" 2 "rightist" 3 "missing"
 label values leader_ideology_num_new leader_ideology_num_new
 
@@ -59,11 +59,11 @@ replace country_name="Timor-Leste" if country_name=="East Timor"
 * Merge summarized ideology per country with world map data:
 merge 1:1 country_name using map.dta
 
-* Graph summarized left heads of governments per country:
+* Graph summarized leftist leaders per country:
 spmap leader_left_share using worldcoord19.dta if _merge==3 & leader_left_share!=., id(id) fcolor(Oranges) ocolor(white ..) osize(thin ..) clmethod(custom) clbreaks(0 25 50 75 100) legend(symy(*2) symx(*2) size(*2)) legorder(lohi) title("% of years with leftist leader, 1945-2020" "")
 graph save ideology_map_1.gph
 
-* Graph summarized right heads of governments per country:
+* Graph summarized rightist leaders per country:
 spmap leader_right_share using worldcoord19.dta if _merge==3 & leader_right_share!=., id(id) fcolor(Blues) ocolor(white ..) osize(thin ..) clmethod(custom) clbreaks(0 25 50 75 100) legend(symy(*2) symx(*2) size(*2)) legorder(lohi) title("% of years with rightist leader, 1945-2020" "")
 graph save ideology_map_2.gph
 
