@@ -1,12 +1,11 @@
 # The Global Leader Ideology dataset
 
-This document briefly describes the variables in the dataset.
-
-If you would like to explore the data, use `global_leader_ideologies.dta` for Stata and `global_leader_ideologies.csv` otherwise.
-If you would like to learn more about the coding, take a look at my working paper `Identifying_Ideologues` and `Identifying_Ideologues_Supplementary_Materials`.
-If you would like to see the data visualized, check out the graphs and supplement.
-If you would like to replicate the graphs or refine them, take a look at my code.
-If you would like to learn more about a specific country or leader, check out the country profiles.
+To get an overview of the data, read the brief variable descriptions below.
+To explore the data, use `global_leader_ideologies.dta` for Stata and `global_leader_ideologies.csv` otherwise.
+To learn more about the coding, take a look at my working paper `Identifying_Ideologues` and `Identifying_Ideologues_Supplementary_Materials`.
+To see the data visualized, check out the graphs and supplement.
+To replicate the graphs or refine them, take a look at my code.
+To learn more about a specific country or leader, check out the country profiles.
 
 When using the data, please cite the working paper:
 Herre, Bastian. 2021. Identifying Ideologues: A Global Dataset on Political Leaders, 1945-2020. Working Paper.
