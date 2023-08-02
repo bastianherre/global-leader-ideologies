@@ -8,6 +8,7 @@
 - To learn more about a specific country or leader, check out the country profiles.
 
 When using the data, please cite the article presenting it:
+
 Herre, Bastian. 2023. Identifying Ideologues: A Global Dataset on Political Leaders, 1945-2020. British Journal of Political Science 53(2): 740-748. https://doi.org/10.1017/S0007123422000217 
 
 I thank Sophia Barkoff, Aaron Casella, Austin Christhilf, Amisha Kapur, Russell Legate-Yang, Julia Lodoen, Lysimachos Mavridis, Mariana Paez, Ivanna Shevel, Alexander Shura, Benjamin Silvian, Wen Li Teng, Sean Uribe, Joshua Zakharov, and Hsin Min Zee for their outstanding research assistance.
